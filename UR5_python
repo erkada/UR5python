@@ -4,7 +4,7 @@ import time
 
 HOST = "172.16.0.1"    		# Host instellen (=robot IP)
 PORT = 30002              	# Robotpoort instellen
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)	# Socketverbinding definiëren
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)	# Socketverbinding definieren
 s.connect((HOST, PORT))					# Socketverbinding connect
 
 time.sleep(0.05)

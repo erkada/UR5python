@@ -1,1 +1,7 @@
 Python script om te communiceren met de UR5 via een socketverbinding
+
+Zorg ervoor dat:
+Zowel robot als laptop/PC in zelfde subnet zitten (IP-adres)
+Firewall geen communicatie blokkeert op poort 30002
+
+Te runn
